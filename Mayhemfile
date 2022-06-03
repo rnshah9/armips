@@ -1,0 +1,7 @@
+project: armips
+target: armips
+
+cmds:
+  - cmd: /repo/build/armips @@
+    env:
+      DISABLE_SMOKETEST: '1'
