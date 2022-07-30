@@ -2,6 +2,6 @@ project: armips
 target: armips
 
 cmds:
-  - cmd: /repo/build/armips @@
+  - cmd: /install/armips @@
     env:
       DISABLE_SMOKETEST: '1'
