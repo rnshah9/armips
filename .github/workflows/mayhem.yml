@@ -59,7 +59,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_toLowercase
+          - mayhem/Mayhemfile_armips
 
     steps:
       - uses: actions/checkout@v3

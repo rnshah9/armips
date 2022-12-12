@@ -1,0 +1,5 @@
+project: armips
+target: tolowercase
+
+cmds:
+  - cmd: /fuzz_toLowercase
